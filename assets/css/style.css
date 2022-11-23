@@ -1,9 +1,147 @@
-.heading {
-
-    height: 250px;
+header {
+    height: 500px;
     width: 100%;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,146,246,0.9) 0%, rgba(0,212,255,1) 100%);
-    color: white;
-    display: grid;
+    background-color: #D4E1F0;
 }
 
+
+.navbar-top {
+
+    height: 100px;
+    width: 100%;
+    
+}
+
+.support-container {
+    height: 70px;
+    width: 100%;
+    background-color: #F0E442;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.navbar-info {
+    list-style-type: none;
+    padding-right: 0;
+    margin-bottom: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;    
+}
+
+.navbar-info li {
+    display: inline-block;
+}
+
+.navbar-info li a {
+    display: inline-block;
+    
+}
+
+.support-bar {
+display: flex;
+flex-flow: row nowrap;
+}
+
+.support {
+    margin-left: 680px;
+}
+
+.language {
+
+    margin-left: 20px;
+}
+
+.chosen {
+
+    margin-left: 20px;
+}
+
+.login {
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+.navbar-bottom {
+    height: 100px;
+    width: 100%;    
+}
+
+.main-navbar {
+    height: 140px;
+    width: 100%;
+    background-color: #F0005C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-right: 0;
+    margin-bottom: 15px;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.main-menu {
+
+    padding-top: 5px;
+    margin-left: 250px
+}
+
+
+.main-menu a {
+
+    padding-top: 5px;
+    margin-left: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.custom {
+    display: inline-block;
+}
+
+.custom-select-1 {
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, grey);
+    font-size: 25px;
+    padding: 3px;
+    background: #4d5061;
+    color: white;
+}
+
+
+.custom-select-2 {
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, grey);
+    font-size: 25px;
+    padding: 3px;
+    background: #4d5061;
+    color: white;
+}
+.custom-select-3 {
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, grey);
+    font-size: 25px;
+    padding: 3px;
+    background: #4d5061;
+    color: white;
+}
+.custom-select-4 {
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, grey);
+    font-size: 25px;
+    padding: 3px;
+    background: #4d5061;
+    color: white;
+}
